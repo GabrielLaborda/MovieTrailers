@@ -24,12 +24,12 @@ La **Movie Trailers App** es una aplicación diseñada para buscar películas ut
 
 ### HOME
 
-![Captura de pantalla 1](/img/MovieTrailerHome.png)
+![Captura de pantalla 1](./public/img/MovieTrailerHome.png)
 
 ### MODAL
 
-![Captura de pantalla 2](/img/MovieTrailerModal.png)
+![Captura de pantalla 2](./public/img/MovieTrailerModal.png)
 
 ### Responsive
 
-![Captura de pantalla 3](/img/MovieTrailerResponsive.png)
+![Captura de pantalla 3](./public/img/MovieTrailerResponsive.png)
