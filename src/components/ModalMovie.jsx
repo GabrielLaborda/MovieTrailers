@@ -19,7 +19,7 @@ function ModalMovie({ show, handleClose, movie }) {
         method: "get",
         url: `https://api.themoviedb.org/3/movie/${id}`,
         params: {
-          api_key: import.meta.env.VITE_TMDB_API_KEY,
+          api_key: import.meta.env.VITE_TMDB_API,
           append_to_response: "videos",
         },
       });

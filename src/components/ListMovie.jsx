@@ -24,7 +24,7 @@ function ListMovie({ratingValue}) {
                 include_adult: "false",
                 page: 1,
                 "vote_average.gte": minVoteAvg,
-                api_key: import.meta.env.VITE_TMDB_API_KEY,
+                api_key: import.meta.env.VITE_TMDB_API,
             }
         })
             setMovie(response.data.results)
@@ -47,7 +47,7 @@ function ListMovie({ratingValue}) {
                     include_adult: "false",
                     page: page,
                     "vote_average.gte": minVoteAvg,
-                    api_key: import.meta.env.VITE_TMDB_API_KEY
+                    api_key: import.meta.env.VITE_TMDB_API
                 }
             })
             setMovie([...movie, ...response.data.results])
